@@ -70,3 +70,47 @@ body{
 .group:nth-child(1){
     min-height: 19rem;
 }
+.instagram-login{
+    background-image: linear-gradient(45deg, rgb(201,51,91), rgb(225,52,58), rgb(245,162,65));
+    color: #fff;
+    min-width: 16rem;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+.instagram-logout{
+    color:#0095f6;
+    margin-top: 1rem;
+}
+.not-account{
+    color: rgb(160, 160, 160);  
+}
+.link-blue{
+    color: #0095f6;
+}
+.get-the-app{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   padding: 1.3rem 0;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.app-download:nth-child(1){
+    background-image: url("./img/appStore.png");
+}
+.app-download:nth-child(2){
+    background-image: url("./img/googlePlay.png");
+}
